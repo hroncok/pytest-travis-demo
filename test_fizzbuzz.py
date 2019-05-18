@@ -7,7 +7,7 @@ def test_fb_is_callable_with_1_argument():
 def test_fb_returns_str():
     assert isinstance(fizzbuzz(1), str)
 
-@pytest.mark.parametrize('num', [1, 2, 4])
+@pytest.mark.parametrize('num', [1, 2, 4, 8])
 def test_fb_regular_is_self(num):
     assert int(fizzbuzz(num)) == num
 
