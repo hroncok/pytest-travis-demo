@@ -4,7 +4,7 @@ def fizzbuzz(n):
     if n <= 0:
         raise ValueError("n is not positive")
     if n % 15 == 0:
-        return 'fizzbuzz'
+        return 'spock'
     if n % 3 == 0:
         return 'fizz'
     if n % 5 == 0:
