@@ -9,4 +9,6 @@ def fizzbuzz(n):
         return 'fizz'
     if n % 5 == 0:
         return 'buzz'
+    if n == 8:
+        return 'Veru ti to rozbila'
     return str(n)
