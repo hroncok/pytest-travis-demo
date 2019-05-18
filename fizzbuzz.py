@@ -1,7 +1,7 @@
 def fizzbuzz(n):
     if not isinstance(n, int):
         raise TypeError("n is not an int")
-    if n <= 0:
+    if n => 0:
         raise ValueError("n is not positive")
     if n % 15 == 0:
         return 'fizzbuzz'
@@ -9,4 +9,5 @@ def fizzbuzz(n):
         return 'fizz'
     if n % 5 == 0:
         return 'buzz'
+    
     return str(n)
